@@ -1,0 +1,13 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define NB_TYPE_POPULATION 1
+#define NB_MAX_ENTITES 20
+#define ZOOM 3
+#define SIZE_TILE 16*ZOOM
+#define SCREEN_WIDTH SIZE_TILE*20
+#define SCREEN_HEIGHT SIZE_TILE*17
+#define NB_ROOM 11 // MODIFIER AUSSI LE TABLEAU DANS manager.h
+#define PLAYER_SPEED SIZE_TILE/2
+
+#endif // CONFIG_H
